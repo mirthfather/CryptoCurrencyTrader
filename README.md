@@ -37,20 +37,29 @@ With none of the different automated machine learning optimisation strategies wa
 
 
 ## Python 2.7 + Tensorflow + MiniConda
-https://conda.io/docs/installation.html
-https://conda.io/docs/_downloads/conda-cheatsheet.pdf
+There is an easy way to configure your system for these scripts by using the Anaconda package manager. Start by following the Anaconda installation instructions found here:
+
+* https://conda.io/docs/installation.html - Install the latest Anaconda for package management
+* https://conda.io/docs/_downloads/conda-cheatsheet.pdf - Handy Anaconda command line cheatsheet
+
+Once you have Anaconda installed, use the following setup appropriate for your system architecture. 
+
 ## OSX / linux
-conda create -n tensorflow-p2 python=2.7
-source activate tensorflow-p2
-conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-learn nb_conda  
-conda install -c auto multiprocessing statsmodels arch
-pip install arch polyaxon
+To get the correct packages setup on Linux, execute the following from a shell prompt:
+
+    conda create -n tensorflow-p2 python=2.7
+    source activate tensorflow-p2
+    conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-learn nb_conda  
+    conda install -c auto multiprocessing statsmodels arch
+    pip install arch polyaxon
 
 ## Windows
-conda create -n tensorflow-p2 python=2.7
-activate tensorflow-p2
-conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-learn nb_conda  
-conda install -c auto multiprocessing statsmodels arch
-pip install arch polyaxon
+To get the correct packages setup on Windows, execute the following from a command prompt:
+
+    conda create -n tensorflow-p2 python=2.7
+    activate tensorflow-p2
+    conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-learn nb_conda  
+    conda install -c auto multiprocessing statsmodels arch
+    pip install arch polyaxon
 
 
